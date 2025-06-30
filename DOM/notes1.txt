@@ -1,0 +1,33 @@
+open console from browser and 
+// console.log(document);
+
+after adding '.' after document there will be multiple options
+
+suppose open browser and search Brendan Eich wikipedia
+
+//console.log(document.baseURI)
+
+it will show:- https://en.wikipedia.org/wiki/Brendan_Eich
+
+//console.log(document.links)
+
+it will give all links present in the particular page/document
+
+**this links are in HTMLCollection format not in array
+
+//console.log(document.links[2])
+
+this will return the third link
+
+
+
+//document.getElementById('firstHeading')
+
+<h1 id=​"firstHeading" class=​"firstHeading mw-first-heading">​…​</h1>​
+
+we can manipulate DOM very easily
+
+//document.getElementById('firstHeading').innerHTML = "<h1>Rupam</h1>"
+
+now the firstHeading i.e. Brendan Eich will replaced by Rupam
+
